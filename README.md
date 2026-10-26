@@ -190,6 +190,8 @@ J 0 <br>
 <hr>
 <h2>Sample Output</h2>
 <hr>
+<img width="931" height="761" alt="image" src="https://github.com/user-attachments/assets/eb3d617d-56ac-4339-8d36-d680b2f85ba3" />
+
 Path found: ['A', 'F', 'G', 'I', 'J']
 
 
@@ -197,7 +199,8 @@ Path found: ['A', 'F', 'G', 'I', 'J']
 <h2>Sample Graph II</h2>
 <hr>
 
-<img width="1024" height="663" alt="image" src="https://github.com/user-attachments/assets/8ed15a3e-bda9-4ca7-a110-2988e5578966" />
+<img width="1560" height="1027" alt="image" src="https://github.com/user-attachments/assets/5c7afb79-7c6b-46d6-8e6f-c1b0c501bcc8" />
+
 
 
 <hr>
