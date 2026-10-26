@@ -152,54 +152,7 @@ aStarAlgo(start_node, goal_node)
 <h2>PROGRAM</h2>
 
 ```
-```
-g[start_node] = 0
-parents[start_node] = start_node
-
-while len(open_set) > 0:
-    n = None
-    
-    # Find node in open_set with the lowest f(n) = g(n) + h(n)
-    for v in open_set:
-        if n is None or g[v] + heuristic(v) < g[n] + heuristic(n):
-            n = v
-            
-    if n is None:
-        print("Path does not exist!")
-        return None
-        
-    # Reconstruct path if the destination is reached
-    if n == stop_node:
-        path = []
-        while parents[n] != n:
-            path.append(n)
-            n = parents[n]
-        path.append(start_node)
-        path.reverse()
-        print("Path found: {}".format(path))
-        return path
-        
-    # Check neighbors of the current node
-    for (m, weight) in get_neighbors(n):
-        if m not in open_set and m not in closed_set:
-            open_set.add(m)
-            parents[m] = n
-            g[m] = g[n] + weight
-        else:
-            if g[m] > g[n] + weight:
-                g[m] = g[n] + weight
-                parents[m] = n
-                if m in closed_set:
-                    closed_set.remove(m)
-                    open_set.add(m)
-                    
-    open_set.remove(n)
-    closed_set.add(n)
-    
-print("Path does not exist!")
-return None
-```
-        
+          
    
 <h2>Sample Graph I</h2>
 <hr>
