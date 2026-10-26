@@ -197,7 +197,7 @@ Path found: ['A', 'F', 'G', 'I', 'J']
 <h2>Sample Graph II</h2>
 <hr>
 
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/acbb09cb-ed39-48e5-a59b-2f8d61b978a3)
+<img width="1024" height="663" alt="image" src="https://github.com/user-attachments/assets/8ed15a3e-bda9-4ca7-a110-2988e5578966" />
 
 
 <hr>
@@ -220,4 +220,4 @@ G 0 <br>
 <h2>Sample Output</h2>
 <hr>
 <img width="413" height="396" alt="Screenshot 2026-08-08 110533" src="https://github.com/user-attachments/assets/3f17c8bd-9c5e-4edc-9182-96611e275131" />
-Path found: ['A', 'E', 'D', 'G']
+
